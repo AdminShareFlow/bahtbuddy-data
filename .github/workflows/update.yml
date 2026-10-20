@@ -36,4 +36,5 @@ jobs:
           git add places-th.json meta.json
           git diff --cached --quiet && exit 0
           git commit -m "Mise à jour des lieux $(date -u +%F)"
+          git pull --rebase origin main
           git push

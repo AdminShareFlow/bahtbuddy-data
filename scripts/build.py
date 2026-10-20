@@ -26,7 +26,7 @@ OVERPASS = [
 ]
 if os.environ.get("OVERPASS_URLS"):  # pour les tests
     OVERPASS = os.environ["OVERPASS_URLS"].split(",")
-UA = {"User-Agent": "BahtBuddy-data-bot/1.0 (+https://github.com/Adminshareflow/bahtbuddy-data)"}
+UA = {"User-Agent": "BahtBuddy-data-bot/1.0 (+https://github.com/AdminShareFlow/bahtbuddy-data)"}
 CACHE = os.environ.get("TILE_CACHE", "/tmp/bahtbuddy-tiles")
 MIN_RATIO = float(os.environ.get("MIN_RATIO", "0.7"))  # en dessous de 70 % du nombre de lieux précédent, on ne publie pas
 
