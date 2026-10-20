@@ -1,9 +1,31 @@
 {
- "checked": "2026-10",
+ "checked": "2026-10-20",
  "counter": {
   "bank": "SCB",
   "fee": 180
  },
+ "networks": [
+  [
+   "visa",
+   "Visa"
+  ],
+  [
+   "mc",
+   "Mastercard"
+  ],
+  [
+   "upi",
+   "UnionPay"
+  ],
+  [
+   "jcb",
+   "JCB"
+  ],
+  [
+   "amex",
+   "American Express"
+  ]
+ ],
  "banks": [
   {
    "id": "scb",
@@ -13,31 +35,15 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": 50
    },
    "official": true,
+   "url": "https://www.scb.co.th/content/media/personal-banking/rates-fees/others/card-and-electronics-fees/card-and-electronics-fees.pdf",
    "keys": [
     "siam commercial",
     "scb",
     "ไทยพาณิชย์"
-   ]
-  },
-  {
-   "id": "bay",
-   "name": "Krungsri",
-   "full": "Bank of Ayudhya",
-   "fees": {
-    "visa": 250,
-    "mc": 350,
-    "upi": 250,
-    "jcb": 250
-   },
-   "official": true,
-   "keys": [
-    "krungsri",
-    "ayudhya",
-    "ayutthaya bank",
-    "กรุงศรี"
    ]
   },
   {
@@ -48,13 +54,35 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": null,
+    "amex": 50
    },
    "official": true,
+   "url": "https://www.gsb.or.th/media/2026/02/fee-card.pdf",
    "keys": [
     "government savings",
     "gsb",
     "ออมสิน"
+   ]
+  },
+  {
+   "id": "bay",
+   "name": "Krungsri",
+   "full": "Bank of Ayudhya",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250,
+    "amex": null
+   },
+   "official": true,
+   "url": "https://www.krungsri.com/getmedia/546f2617-8522-47b8-9b06-6c2cb49f32d0/fee-withdrawal-via-atm-for-international-card-11032026-en",
+   "keys": [
+    "krungsri",
+    "ayudhya",
+    "ayutthaya bank",
+    "กรุงศรี"
    ]
   },
   {
@@ -65,7 +93,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "kasikorn",
@@ -82,7 +111,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "bangkok bank",
@@ -98,7 +128,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "krungthai",
@@ -115,7 +146,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "ttb",
@@ -134,7 +166,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "uob",
@@ -149,7 +182,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "cimb",
@@ -164,7 +198,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "baac",
@@ -180,7 +215,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "lh bank",
@@ -196,7 +232,8 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": 250
+    "jcb": 250,
+    "amex": null
    },
    "keys": [
     "government housing",

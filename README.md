@@ -20,8 +20,15 @@ Pour lancer une mise à jour tout de suite : onglet **Actions** → « Mise à j
 
 ## Changer un tarif
 
-Modifier `banks.json` directement sur GitHub (icône crayon), par exemple `"mc": 350`, et mettre
-`"checked"` à jour (`"2026-11"`). Les téléphones récupèrent le changement à leur prochaine vérification.
+Modifier `banks.json` directement sur GitHub (icône crayon), par exemple `"mc": 350`
+(`visa`, `mc` = Mastercard, `upi` = UnionPay, `jcb`, `amex` ; `null` = inconnu), puis mettre `"checked"`
+à jour (par exemple `"2026-11"`) **dans `banks.json` et dans `meta.json`**. Les téléphones récupèrent le
+changement à leur prochaine vérification (au plus tard 2 jours).
+
+`official: true` + `url` = montant lu dans la grille officielle de la banque (lien affiché dans l'appli).
+Sources officielles actuelles : SCB (grille au 1er septembre 2026 : Visa 250, Mastercard 350, UnionPay 250,
+JCB 250, American Express 50 ฿ ; retrait au guichet 180 ฿ avec carte de crédit uniquement) et GSB
+(février 2026 : Visa 250, Mastercard 350 depuis le 1er avril 2026, UnionPay 250, American Express 50 ฿).
 
 ## Licences
 
