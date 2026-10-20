@@ -1,0 +1,15 @@
+{
+ "generated": "2026-10-20T07:30Z",
+ "places": {
+  "date": "2024-11",
+  "count": 14463,
+  "atm": 4496,
+  "bank": 9285,
+  "fx": 682,
+  "bytes": 1408211,
+  "sha256": "acb349d67d52fedcd3f82acb5665899cb02787bd6196ad8f86217ae9f423228a"
+ },
+ "banks": {
+  "checked": "2026-10"
+ }
+}

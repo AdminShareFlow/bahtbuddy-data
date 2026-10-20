@@ -1,0 +1,208 @@
+{
+ "checked": "2026-10",
+ "counter": {
+  "bank": "SCB",
+  "fee": 180
+ },
+ "banks": [
+  {
+   "id": "scb",
+   "name": "SCB",
+   "full": "Siam Commercial Bank",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "official": true,
+   "keys": [
+    "siam commercial",
+    "scb",
+    "ไทยพาณิชย์"
+   ]
+  },
+  {
+   "id": "bay",
+   "name": "Krungsri",
+   "full": "Bank of Ayudhya",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "official": true,
+   "keys": [
+    "krungsri",
+    "ayudhya",
+    "ayutthaya bank",
+    "กรุงศรี"
+   ]
+  },
+  {
+   "id": "gsb",
+   "name": "GSB",
+   "full": "Government Savings Bank",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "official": true,
+   "keys": [
+    "government savings",
+    "gsb",
+    "ออมสิน"
+   ]
+  },
+  {
+   "id": "kbank",
+   "name": "Kasikornbank",
+   "full": "K Bank",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "kasikorn",
+    "kbank",
+    "k bank",
+    "กสิกร"
+   ]
+  },
+  {
+   "id": "bbl",
+   "name": "Bangkok Bank",
+   "full": "",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "bangkok bank",
+    "bbl",
+    "ธนาคารกรุงเทพ"
+   ]
+  },
+  {
+   "id": "ktb",
+   "name": "Krungthai",
+   "full": "Krung Thai Bank",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "krungthai",
+    "krung thai",
+    "ktb",
+    "กรุงไทย"
+   ]
+  },
+  {
+   "id": "ttb",
+   "name": "ttb",
+   "full": "TMBThanachart",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "ttb",
+    "tmb",
+    "thanachart",
+    "ทหารไทย",
+    "ธนชาต",
+    "ทีทีบี"
+   ]
+  },
+  {
+   "id": "uob",
+   "name": "UOB",
+   "full": "United Overseas Bank",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "uob",
+    "ยูโอบี"
+   ]
+  },
+  {
+   "id": "cimb",
+   "name": "CIMB Thai",
+   "full": "",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "cimb",
+    "ซีไอเอ็มบี"
+   ]
+  },
+  {
+   "id": "baac",
+   "name": "BAAC",
+   "full": "ธ.ก.ส.",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "baac",
+    "ธ.ก.ส",
+    "เพื่อการเกษตร"
+   ]
+  },
+  {
+   "id": "lhb",
+   "name": "LH Bank",
+   "full": "Land and Houses",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "lh bank",
+    "land and houses",
+    "แลนด์ แอนด์ เฮ้าส์"
+   ]
+  },
+  {
+   "id": "ghb",
+   "name": "GH Bank",
+   "full": "Government Housing Bank",
+   "fees": {
+    "visa": 250,
+    "mc": 350,
+    "upi": 250,
+    "jcb": 250
+   },
+   "keys": [
+    "government housing",
+    "ghb",
+    "อาคารสงเคราะห์"
+   ]
+  }
+ ]
+}
