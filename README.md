@@ -21,7 +21,7 @@ Pour lancer une mise à jour tout de suite : onglet **Actions** → « Mise à j
 ## Changer un tarif
 
 Modifier `banks.json` directement sur GitHub (icône crayon), par exemple `"mc": 350`
-(`visa`, `mc` = Mastercard, `upi` = UnionPay, `jcb`, `amex` ; `null` = inconnu), puis mettre `"checked"`
+(`visa`, `mc` = Mastercard, `upi` = UnionPay, `jcb`, `amex`). Règle par défaut (`default`) : 250 ฿, sauf Mastercard 350 ฿, puis mettre `"checked"`
 à jour (par exemple `"2026-11"`) **dans `banks.json` et dans `meta.json`**. Les téléphones récupèrent le
 changement à leur prochaine vérification (au plus tard 2 jours).
 

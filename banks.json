@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-20",
+ "checked": "2026-10-20.2",
  "counter": {
   "bank": "SCB",
   "fee": 180
@@ -26,6 +26,13 @@
    "American Express"
   ]
  ],
+ "default": {
+  "visa": 250,
+  "mc": 350,
+  "upi": 250,
+  "jcb": 250,
+  "amex": 250
+ },
  "banks": [
   {
    "id": "scb",
@@ -54,7 +61,7 @@
     "visa": 250,
     "mc": 350,
     "upi": 250,
-    "jcb": null,
+    "jcb": 250,
     "amex": 50
    },
    "official": true,
@@ -74,7 +81,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "official": true,
    "url": "https://www.krungsri.com/getmedia/546f2617-8522-47b8-9b06-6c2cb49f32d0/fee-withdrawal-via-atm-for-international-card-11032026-en",
@@ -94,7 +101,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "kasikorn",
@@ -112,7 +119,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "bangkok bank",
@@ -129,7 +136,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "krungthai",
@@ -147,7 +154,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "ttb",
@@ -167,7 +174,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "uob",
@@ -183,7 +190,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "cimb",
@@ -199,7 +206,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "baac",
@@ -216,7 +223,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "lh bank",
@@ -233,7 +240,7 @@
     "mc": 350,
     "upi": 250,
     "jcb": 250,
-    "amex": null
+    "amex": 250
    },
    "keys": [
     "government housing",
