@@ -35,3 +35,13 @@ JCB 250, American Express 50 ฿ ; retrait au guichet 180 ฿ avec carte de cré
 - Lieux OpenStreetMap : © contributeurs OpenStreetMap, [ODbL](https://opendatacommons.org/licenses/odbl/).
 - Lieux Overture Maps : © Overture Maps Foundation, [CDLA-Permissive-2.0](https://cdla.dev/permissive-2-0/).
 - Contour de la Thaïlande : Overture Maps (divisions).
+
+## Formulaire « Une remarque ? » de l'appli
+
+Les messages envoyés depuis les Réglages de l'appli arrivent par e-mail via [Web3Forms](https://web3forms.com)
+(gratuit, 250 messages/mois), sans que l'adresse e-mail apparaisse dans l'appli.
+
+1. Sur web3forms.com, entrer son adresse e-mail → on reçoit une « Access Key » par e-mail.
+2. Ici, modifier `config.json` (icône crayon) et coller la clé : `"key": "xxxxxxxx-xxxx-…"`.
+3. Les téléphones la récupèrent à leur prochaine vérification (au plus 2 jours). Les messages écrits
+   avant restent en attente sur le téléphone et partent dès que la clé est disponible.
