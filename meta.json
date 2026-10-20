@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-20T07:30Z",
+ "generated": "2026-10-20T11:10Z",
  "places": {
-  "date": "2024-11",
-  "count": 14463,
-  "atm": 4496,
-  "bank": 9285,
-  "fx": 682,
-  "bytes": 1408211,
-  "sha256": "acb349d67d52fedcd3f82acb5665899cb02787bd6196ad8f86217ae9f423228a"
+  "date": "2026-10-20",
+  "count": 14967,
+  "atm": 4917,
+  "bank": 9313,
+  "fx": 737,
+  "bytes": 1443129,
+  "sha256": "85d2c127739f340b2164e292224a53beb2fad9ae06f526d1d135e981203c0c02"
  },
  "banks": {
   "checked": "2026-10-20.2"
